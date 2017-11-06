@@ -1,0 +1,10 @@
+version: '3'
+services:
+  node_express:
+    build: .
+    command: npm start
+    volumes:
+      - .:/usr/src/aquariumspecs
+      - /usr/src/aquariumspecs/node_modules
+    ports:
+      - "8080:8080"
