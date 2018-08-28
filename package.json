@@ -5,11 +5,14 @@
   "main": "server.js",
   "scripts": {
     "dev": "next",
+    "eslint": "eslint .",
+    "eslint-fix": "eslint . --fix",
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
     "build": "next build",
     "pretty-quick": "pretty-quick",
     "start": "next start",
     "precommit": "pretty-quick --staged",
-    "prepush": "npm run pretty-quick"
+    "prepush": "npm run pretty-quick && npm run eslint"
   },
   "repository": {
     "type": "git",
@@ -22,8 +25,13 @@
   },
   "homepage": "https://github.com/pierceray/aquariumspecs#readme",
   "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
     "husky": "^0.14.3",
-    "prettier": "^1.14.2",
+    "prettier": "1.14.2",
     "pretty-quick": "^1.6.0"
   },
   "dependencies": {
