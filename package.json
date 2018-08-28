@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "pretty-quick": "pretty-quick",
     "start": "next start",
-    "precommit": "pretty-quick --staged"
+    "precommit": "pretty-quick --staged",
+    "prepush": "npm run pretty-quick"
   },
   "repository": {
     "type": "git",
