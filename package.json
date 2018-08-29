@@ -4,12 +4,13 @@
   "description": "Website for aquariumspecs.info",
   "main": "server.js",
   "scripts": {
+    "build": "next build",
     "dev": "next",
     "eslint": "eslint .",
     "eslint-fix": "eslint . --fix",
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
-    "build": "next build",
     "pretty-quick": "pretty-quick",
+    "test": "npm run eslint && npm run build",
     "start": "next start",
     "precommit": "pretty-quick --staged",
     "prepush": "npm run pretty-quick && npm run eslint"
