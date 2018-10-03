@@ -11,9 +11,7 @@
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
     "pretty-quick": "pretty-quick",
     "test": "npm run eslint && npm run build",
-    "start": "next start",
-    "precommit": "pretty-quick --staged",
-    "prepush": "npm run pretty-quick && npm run eslint"
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -41,5 +39,11 @@
     "node-sass": "^4.9.3",
     "react": "^16.5.0",
     "react-dom": "^16.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "pre-push": "npm run pretty-quick && npm run eslint"
+    }
   }
 }
