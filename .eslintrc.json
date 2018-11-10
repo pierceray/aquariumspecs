@@ -7,6 +7,7 @@
         "plugin:prettier/recommended"
     ],
     "plugins": ["react", "prettier", "jsx-a11y"],
+    "parser": "babel-eslint",
     "parserOptions": {
         "sourceType": "module",
         "ecmaFeatures": {
