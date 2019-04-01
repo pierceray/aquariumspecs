@@ -10,7 +10,7 @@
     "eslint-fix": "eslint . --fix",
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
     "pretty-quick": "pretty-quick",
-    "test": "npm run eslint && npm run build",
+    "test": "yarn eslint && yarn build",
     "start": "next start"
   },
   "repository": {
