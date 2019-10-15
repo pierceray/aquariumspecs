@@ -1,8 +1,12 @@
-import css from "../styles/main.scss";
-import React from "react";
+import React from 'react';
+import styled from '@xstyled/styled-components';
+
+const PageTitle = styled.h1`
+	font-weight: 800;
+`;
 
 const Component = () => {
-    return <h1 className={css.mainHeader}>Aquarium Specs</h1>;
+	return <PageTitle>Aquarium Specs</PageTitle>;
 };
 
 export default Component;
