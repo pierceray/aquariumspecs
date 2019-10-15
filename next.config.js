@@ -1,6 +1,6 @@
-const withSass = require("@zeit/next-sass");
+const withSass = require('@zeit/next-sass');
 module.exports = withSass({
-    sassLoaderOptions: {
-        includePaths: ["styles/"]
-    }
+	sassLoaderOptions: {
+		includePaths: ['styles/']
+	}
 });

@@ -1,30 +1,31 @@
 {
-    "root": true,
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "plugin:jsx-a11y/recommended",
-        "plugin:prettier/recommended"
-    ],
-    "plugins": ["react", "prettier", "jsx-a11y"],
-    "parser": "babel-eslint",
-    "parserOptions": {
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true
-        }
-    },
-    "settings": {
-        "react": {
-            "pragma": "React",
-            "version": "detect"
-        }
-    },
-    "env": {
-        "es6": true,
-        "node": true
-    },
-    "rules": {
-        "prettier/prettier": "error"
-    }
+	"root": true,
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:jsx-a11y/recommended",
+		"plugin:prettier/recommended"
+	],
+	"plugins": ["react", "prettier", "jsx-a11y"],
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"settings": {
+		"react": {
+			"pragma": "React",
+			"version": "detect"
+		}
+	},
+	"env": {
+		"es6": true,
+		"node": true,
+		"shared-node-browser": true
+	},
+	"rules": {
+		"prettier/prettier": "error"
+	}
 }
