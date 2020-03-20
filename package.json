@@ -24,24 +24,25 @@
   },
   "homepage": "https://github.com/pierceray/aquariumspecs#readme",
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.14.2",
-    "husky": "^3.0.0",
-    "node-sass": "^4.11.0",
-    "prettier": "^1.16.4",
-    "pretty-quick": "^2.0.0"
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "husky": "^4.2.3",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
   },
   "dependencies": {
-    "@xstyled/styled-components": "^1.13.1",
+    "@xstyled/styled-components": "^1.17.0",
     "@zeit/next-sass": "^1.0.1",
     "next": "^9.1.5",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "styled-components": "^4.4.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
+    "styled-components": "^5.0.1"
   },
   "husky": {
     "hooks": {
