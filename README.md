@@ -1,5 +1,5 @@
 # aquariumspecs
 
-[![Build Status](https://travis-ci.org/pierceray/aquariumspecs.svg?branch=master)](https://travis-ci.org/pierceray/aquariumspecs) [![Greenkeeper badge](https://badges.greenkeeper.io/pierceray/aquariumspecs.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/pierceray/aquariumspecs.svg?branch=master)](https://travis-ci.org/pierceray/aquariumspecs) 
 
 Website for aquariumspecs.info
