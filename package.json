@@ -27,24 +27,24 @@
   "homepage": "https://github.com/pierceray/aquariumspecs#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.19.0",
-    "husky": "^4.2.3",
-    "node-sass": "^4.13.1",
-    "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1"
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "husky": "^4.3.8",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.3.0",
+    "pretty-quick": "^3.1.0"
   },
   "dependencies": {
-    "@xstyled/styled-components": "^1.17.0",
+    "@xstyled/styled-components": "^2.5.0",
     "@zeit/next-sass": "^1.0.1",
-    "next": "^9.3.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "next": "^10.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-is": "^16.13.1",
-    "styled-components": "^5.0.1",
+    "styled-components": "^5.3.0"
     "snyk": "^1.316.1"
   },
   "husky": {
